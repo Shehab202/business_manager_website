@@ -2,7 +2,12 @@ import Image from "next/image";
 import React from "react";
 
 import { ArrowUpRight } from "lucide-react";
-const Cart = ({ image,title }: any) => {
+
+type props = {
+  image: string;
+  title: string;
+}
+const Cart = ({ image,title }: props) => {
   return (
     <div >
       <div className="relative">

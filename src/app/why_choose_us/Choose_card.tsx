@@ -1,7 +1,11 @@
 import Image from "next/image";
 import React from "react";
 
-const Choose_card = ({ title, icon }: any) => {
+type props = {
+  title: string;
+  icon: string;
+}
+const Choose_card = ({ title, icon }: props) => {
   return (
     <div className="w-full flex justify-center">
       <div className="bg-white rounded-2xl shadow-md gap-5 h-56 w-56 flex flex-col justify-center items-center p-4 text-center">
