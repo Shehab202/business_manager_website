@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 import React from "react";
  interface propsType {
    title: string;
-   num: number
+   num: string
  }
 const ProgressCart = ({ title, num }: propsType) => {
   return (

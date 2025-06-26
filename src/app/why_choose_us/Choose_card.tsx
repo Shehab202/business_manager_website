@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
 
 type props = {
   title: string;
-  icon: string;
+  icon: StaticImageData;
 }
 const Choose_card = ({ title, icon }: props) => {
   return (

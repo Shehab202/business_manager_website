@@ -1,10 +1,10 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
 
 import { ArrowUpRight } from "lucide-react";
 
 type props = {
-  image: string;
+  image: StaticImageData;
   title: string;
 }
 const Cart = ({ image,title }: props) => {
