@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import React from "react";
 import image6 from "../../../public/image4.jpg";
 import image4 from "../../../public/image5 (2).jpg";

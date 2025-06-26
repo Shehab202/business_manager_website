@@ -1,4 +1,3 @@
-import { Phone } from "lucide-react";
 import React from "react";
 import Choose_card from "./Choose_card";
 import image3 from "../../../public/icon3.png";
