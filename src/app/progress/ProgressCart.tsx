@@ -1,7 +1,10 @@
 import { ArrowRight } from "lucide-react";
 import React from "react";
-
-const ProgressCart = ({ title, num }: any) => {
+ interface propsType {
+   title: string;
+   num: number
+ }
+const ProgressCart = ({ title, num }: propsType) => {
   return (
     <div className="flex flex-col items-center gap-4" >
       <div className="relative w-28 h-28 md:w-36 md:h-36 rounded-full bg-[#FBE5DE] flex items-center justify-center">
