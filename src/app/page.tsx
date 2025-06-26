@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HomePage from "./home/HomePage";
 import About from "./about/About";
 import Services from "./services/Services";
