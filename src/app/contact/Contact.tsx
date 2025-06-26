@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="flex flex-col gap-5">
           <p className="text-3xl font-bold text-[#E93F1F]">Get in touch</p>
           <p className="text-[#231f55] text-base max-w-md">
-            We're here to help! Contact us for any inquiries about our digital
+            We are here to help! Contact us for any inquiries about our digital
             solutions, or to start building your next great software product.
           </p>
 

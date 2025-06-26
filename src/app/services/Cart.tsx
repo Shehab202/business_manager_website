@@ -1,8 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import image6 from "../../../public/image4.jpg";
-import image4 from "../../../public/image5 (2).jpg";
-import image5 from "../../../public/image6.jpg";
+
 import { ArrowUpRight } from "lucide-react";
 const Cart = ({ image,title }: any) => {
   return (

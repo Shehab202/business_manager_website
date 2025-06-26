@@ -1,8 +1,10 @@
 import { ArrowRight, Phone } from "lucide-react";
-import { title } from "process";
 import React from "react";
-
-const Button = ({ title, icon }: any) => {
+ interface propsType {
+   title: string;
+   icon: string;
+ }
+const Button = ({ title, icon }: propsType) => {
   return (
     <div className="flex  w-40  rounded-full py-1 cursor-pointer items-center justify-around bg-linear-to-r/hsl from-[#F57C14] to-[#E93F1F]">
       <p className="text-white">{title}</p>

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import imag1 from "../../../public/image2.png";
-import { ArrowRight, Phone } from "lucide-react";
 import Info from "./Info";
 import Heading from "../components/Heading";
 import Button from "../components/Button";
